@@ -53,6 +53,7 @@ class User extends Authenticatable
      * Un user appartient  à plusieurs Groups
      */
     public function groups() {
-        return $this->belongsToMany(Group::class, 'group_user', 'user_id', 'group_id');
+        // return $this->belongsToMany(Group::class, 'group_user', 'user_id', 'group_id');
+        return $this->belongsToMany(Group::class, 'group_user');// On peut écrire des deux manières
     }
 }
