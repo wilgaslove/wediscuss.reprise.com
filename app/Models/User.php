@@ -47,4 +47,12 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+
+    /**
+     * Un user appartient  à plusieurs Groups
+     */
+    public function groups() {
+        return $this->belongsToMany(Group::class, 'group_user', 'user_id', 'group_id');
+    }
 }
