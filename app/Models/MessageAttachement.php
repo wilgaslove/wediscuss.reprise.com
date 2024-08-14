@@ -20,4 +20,6 @@ class MessageAttachement extends Model
         'nime',
         'size',
     ];
+
+    
 }

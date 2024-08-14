@@ -29,6 +29,7 @@ class Group extends Model
      */
     public function users()
     {
+        //return $this->belongsToMany(User::class, 'group_user', 'groupe_id', 'user_id');  // Définir la relation de plusieurs à plusieurs via la table pivot 'group_user'
         return $this->belongsToMany(User::class, 'group_user');  // Définir la relation de plusieurs à plusieurs via la table pivot 'group_user'
     }
 
