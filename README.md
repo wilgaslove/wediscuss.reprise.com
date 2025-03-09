@@ -36,7 +36,7 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 ### Premium Partners
 
 - **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
+- **[Tighten Co.](https
 - **[WebReinvent](https://webreinvent.com/)**
 - **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
 - **[64 Robots](https://64robots.com)**
